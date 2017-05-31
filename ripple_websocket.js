@@ -6,7 +6,7 @@ ws.on("open", function(){
     console.log("websocket opened at " + d.getHours() + ":" 
         + d.getMinutes() + ":" + d.getSeconds())
     var subscription = {
-    "id": "Example watch for new validated ledgers",
+    "id": "Watch for new validated ledgers",
     "command": "subscribe",
     "streams": ["ledger"]
     }
